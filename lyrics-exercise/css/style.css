@@ -17,7 +17,7 @@
 img {
     position: relative;
     top: 50px;
-    left: 320px;
+    left: 390px;
     margin-left: 0px;
     margin-right: 0px;
 
@@ -26,7 +26,7 @@ img {
 #a {
     position: relative;
     top: -250px;
-    left: 605px;
+    left: 675px;
     margin-left: 0px;
     margin-right: 0px;
     font-size: 32px;
@@ -35,7 +35,7 @@ img {
 #b {
     position: relative;
     top: -265px;
-    left: 605px;
+    left: 675px;
     margin-left: 0px;
     margin-right: 0px;
     font-size: 18px;
@@ -55,7 +55,7 @@ img {
 #d {
     position: relative;
     top: -275px;
-    left: 605px;
+    left: 675px;
     margin-left: 0px;
     margin-right: 0px;
     font-size: 12px;
@@ -64,7 +64,7 @@ img {
 #e {
     position: relative;
     top: -290px;
-    left: 605px;
+    left: 675px;
     margin-left: 0px;
     margin-right: 0px;
     font-size: 18px;
@@ -73,16 +73,17 @@ img {
 #f {
     position: relative;
     top: -395px;
-    left: 605px;
+    left: 675px;
     margin-left: 0px;
     margin-right: 0px;
     font-size: 12px;
 }
 
 .embedded {
+    text-align: center;
     position: relative;
     top: 30px;
-    left: 320px;
+    left: 0px;
     margin-left: 0px;
     margin-right: 0px;
     font-size: 18px;
@@ -92,7 +93,7 @@ img {
     text-align: left;
     position: relative;
     top: 30px;
-    left: 320px;
+    left: 390px;
     font-size: 16px;
 }
 
