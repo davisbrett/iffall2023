@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+.header {
+    padding: 0px;
+    text-align: left;
+    background-image: linear-gradient(#cdbb99, #3E5151);
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    height: 366px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+img {
+    position: relative;
+    top: 50px;
+    left: 320px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+#a {
+    position: relative;
+    top: -250px;
+    left: 605px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 32px;
+}
+
+#b {
+    position: relative;
+    top: -265px;
+    left: 605px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 18px;
+}
+
+/* Track 2 on Rumours */
+#c {
+    position: relative;
+    top: -305px;
+    left: 755px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 18px;
+}
+
+/* Produced by */
+#d {
+    position: relative;
+    top: -275px;
+    left: 605px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 12px;
+}
+
+#e {
+    position: relative;
+    top: -290px;
+    left: 605px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 18px;
+}
+
+#f {
+    position: relative;
+    top: -395px;
+    left: 605px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 12px;
+}
+
+.embedded {
+    position: relative;
+    top: 30px;
+    left: 320px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 18px;
+}
+
+.lyrics {
+    text-align: left;
+    position: relative;
+    top: 30px;
+    left: 320px;
+    font-size: 16px;
+}
+
+body {
+    margin: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.end {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    font-size: 12px;
+}
