@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'ghostbus.ttf';
+    src: url(GHOSTBUS.TTF);
+}
+
+body {
+    margin: auto;
+    width: 80%;
+    background-color: rgb(227, 180, 180);
+}
+
+
+.title {
+    text-align: center;
+    font-family: 'ghostbusters', fantasy;
+    color: black;
+    font-size: 32;
+    position: relative;
+    top: 30px;
+}
+
+.quotes {
+    text-align: center;
+    font-family: 'ghostbusters', fantasy;
+    color: black;
+    font-size: 22;
+    position: relative;
+    top: 10px;
+}
+
+
+img {
+    display: block;
+    margin-left: 0;
+    margin-right: 20;
+    margin-top: 0;
+    width: 512px;
+    height: 437px;
+    position: relative;
+    left: -30px;
+}
+
+.pv {
+    font-family: 'ghostbusters', fantasy;
+}
+
+.db {
+    font-family: 'ghostbusters', fantasy;
+}
+
+.m {
+    font-family: 'ghostbusters', fantasy;
+}
+
+.rs {
+    font-family: 'ghostbusters', fantasy;
+}
+
+.es {
+    font-family: 'ghostbusters', fantasy;
+}
+
+.wz {
+    font-family: 'ghostbusters', fantasy;
+}
+
+#a {
+    position: relative;
+    top: -430px;
+    left: 320px;
+}
+
+#b {
+    position: relative;
+    top: -430px;
+    left: 510px;
+}
+
+#c {
+    position: relative;
+    top: -430px;
+    left: 410px;
+}
+
+#d {
+    position: relative;
+    top: -430px;
+    text-align: center;
+}
