@@ -1,0 +1,36 @@
+/* Color Palette: 
+#092a4b
+#0e3c6d
+#4593c3
+#46352e
+#8a6f68
+*/
+
+body {
+    background-color: #4593c329;
+    margin: 6em 25em;
+    color: #092a4b;
+    font-family: "kristal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    font-size: 35pt;
+    padding-bottom: 40pt;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: 700;
+    margin-top: -50px;
+    margin-bottom: -15px;
+}
+
+h2 {
+    margin-bottom: -15px;
+}
+
+.images {
+    margin-top: 25px;
+}
