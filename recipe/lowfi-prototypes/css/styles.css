@@ -1,0 +1,62 @@
+/* Color Palette: 
+#092a4b
+#0e3c6d
+#4593c3
+#46352e
+#8a6f68
+*/
+
+body {
+    background-color: #ffffff29;
+    margin: 6em 4em;
+    margin-right: 6em;
+    color: #092a4b;
+    font-family: "kristal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    font-size: 35pt;
+    padding-bottom: 20pt;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: 700;
+    margin-top: -50px;
+    margin-bottom: -15px;
+}
+
+h2 {
+    margin-bottom: -15px;
+}
+
+.images {
+    margin-top: -5px;
+}
+
+.restrictions {
+    color: #9c0000;
+}
+
+.grid img {
+    width: 1200;
+}
+
+.grid {
+    padding: 0;
+}
+
+.grid li {
+    display: block;
+}
+
+.using-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+img {
+    width: 275px;
+}
