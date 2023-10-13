@@ -1,0 +1,163 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    background-color: rgba(255, 0, 0, .3);
+    background-image: url("https://sodsolutions.com/wp-content/uploads/2018/08/NorthBridge-Bermudagrass-on-Kansas-Citys-Arrowhead-Stadium.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 104px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.column_container {
+    width: 960px;
+    margin: auto;
+}
+
+header .column_container {
+    padding-top: 152px;
+    padding-bottom: 186px;
+    padding-top: 48px;
+}
+
+header .column_container h2 {
+    margin-top: 1px;
+}
+
+.intro_text {
+    background-color: #f2d97f;
+    padding-bottom: 38px;
+    padding-top: 48px;
+}
+
+.intro_text h3 {
+    color: #90180a;
+    padding-bottom: 33px;
+    margin-top: -8px;
+}
+
+.intro_text p {
+    color: #d6150f;
+    font-size: 18px;
+    line-height: 25.1px;
+    padding-bottom: 18px;
+    margin-top: -1px;
+}
+
+.column_container img {
+    width: 400px;
+    height: 300px;
+    float: right;
+    padding-left: 38px;
+    padding-right: 1px;
+    padding-bottom: 38px;
+}
+
+.content_grid {
+    background-color: #761010;
+}
+
+.grid {
+    background-color: #761010;
+    color: #f2d97f;
+}
+
+.content_grid h3 {
+    padding-top: 40px;
+    padding-bottom: 33px;
+}
+
+.content_grid h4 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.gridindividual p {
+    width: 423px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: -19px;
+}
+
+.gridarea {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1px;
+    padding-bottom: 39px;
+}
+
+.gridindividual img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding-left: 0px;
+    padding-right: 12px;
+}
+
+.gridindividual {
+    width: 50%;
+    margin-bottom: -14px;
+}
+
+.content_grid {
+    background-color: rgba(17, 0, 167, 0);
+    padding-bottom: 47px;
+}
+
+.closing_summary {
+    background-color: #f2d97f;
+    color: rgba(240, 248, 255, 0.594);
+    margin-top: -47px;
+}
+
+.closing_summary h3 {
+    color: #90180a;
+    padding-top: 40px;
+    margin-top: -7px;
+    margin-bottom: 40px;
+}
+
+.closing_summary p {
+    color: #d6150f;
+    font-size: 26px;
+    text-align: center;
+    line-height: 36px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: -8px;
+    padding-bottom: 102px;
+}
+
+footer {
+    background-color: #90180a;
+    color: #f2d97f;
+    font-size: 18px;
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
