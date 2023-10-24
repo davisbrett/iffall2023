@@ -1,0 +1,427 @@
+/* CSS Reset (lines 3 through 132) from https://meyerweb.com/eric/tools/css/reset/ */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/* My code */
+
+html {
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(60, 79, 118);
+    height: 64px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    margin-top: -96px;
+    z-index: 999;
+}
+
+#logo {
+    height: 35px;
+    margin-bottom: 6px;
+    margin-top: 11px;
+    margin-left: 10vw;
+}
+
+#search,
+.input {
+    background-color: #ffffff28;
+    justify-content: right;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 180px;
+    height: 20px;
+    margin-top: 18px;
+    margin-right: 10vw;
+    font-family: "runda", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 70%;
+    text-align: left;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+#search:focus {
+    background-color: rgb(255, 255, 255);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(60, 79, 118);
+    font-family: "runda", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 2em;
+    margin-top: 6em;
+}
+
+.title {
+    float: left;
+    width: 50%;
+    margin-left: 10vw;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+
+.text {
+    border-left: solid rgb(60, 79, 118);
+    padding-left: 1em;
+    margin: 1em;
+}
+
+#check {
+    font-size: 80%;
+}
+
+#titleimg {
+    float: left;
+    object-fit: cover;
+    object-position: center;
+    height: 15em;
+    width: 50%;
+    border-radius: 10px;
+    border: 1.5px solid rgb(60, 79, 118);
+    margin-top: -10px;
+    margin-left: 10vw;
+}
+
+.title h1 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#tagline {
+    font-style: italic;
+    margin-right: 10vw;
+}
+
+.side {
+    position: fixed;
+    top: 86px;
+    left: 62vw;
+    float: right;
+    background-color: #cdcdcd3c;
+    width: 28%;
+    color: rgb(60, 79, 118);
+    border-radius: 10px;
+    margin-right: 10vw;
+    margin-bottom: 100vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    max-height: 85vh;
+}
+
+.instructions {
+    float: left;
+    width: 50%;
+    margin-left: 10vw;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    font-family: "panel-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 120%;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: rgb(60, 79, 118);
+    font-size: 80%;
+    text-align: center;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    overflow: scroll;
+    overflow-y: scroll;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 90%;
+    width: 180px;
+    height: 200px;
+    margin-right: 17px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1.5px solid rgb(60, 79, 118);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ingredients {
+    margin-top: 10px;
+}
+
+.ingredients,
+.equipment {
+    margin-bottom: 4px;
+}
+
+ul {
+    list-style: circle;
+}
+
+ul,
+ol {
+    line-height: 1.2;
+    margin-left: 25px;
+}
+
+.text2 {
+    padding-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    overflow-y: scroll;
+}
+
+.side2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(60, 79, 118);
+    margin-left: 10vw;
+    width: 80%;
+    margin-top: 13px;
+    margin-right: 10vw;
+    border-radius: 10px;
+    margin-bottom: 100vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    background-color: #cdcdcd3c;
+    max-height: 85vh;
+}
+
+@media screen and (max-width: 900px) {
+    .part {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .group {
+        font-size: 90%;
+    }
+
+    .side {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .search {
+        display: none
+    }
+
+    .text {
+        font-size: 80%;
+    }
+
+    .side2 {
+        font-size: 80%;
+        margin-bottom: 0px;
+    }
+
+    .group {
+        font-size: 80%;
+    }
+
+    .side {
+        font-size: 80%;
+    }
+
+    .image {
+        width: 33.75vw;
+        height: 37.5vw;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .side2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .side {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .title,
+    #titleimg,
+    .instructions {
+        width: 80%;
+    }
+}
