@@ -1,0 +1,340 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* My Buttons */
+
+a#btn_apple {
+    color: black;
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+a#btn_apple:hover {
+    background-color: #232f3e;
+    transition: all .5s;
+}
+
+#btn_apple:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: 0 0;
+    transform: scale3d(0, 1, 1);
+    transition: transform 1s
+}
+
+#btn_apple:hover {
+    transform: rotateX(180deg);
+}
+
+#btn_apple:hover:before {
+    transform: scale3d(1, 1, 1);
+}
+
+.npr {
+    display: flex;
+    margin-top: 80px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.one {
+    background-color: rgba(215, 32, 34, 255);
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.two {
+    background-color: rgba(1, 0, 5, 255);
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.three {
+    background-color: rgba(35, 122, 189, 255);
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#btn_npr {
+    text-decoration: none;
+}
+
+.one:hover {
+    background-color: white;
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.two:hover {
+    background-color: white;
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.three:hover {
+    background-color: white;
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.imgtesla {
+    height: 70px;
+    width: 177px;
+    margin-top: 100px;
+}
+
+.imgtesla:hover {
+    transform: scaleY(1.75);
+    transition: .5s;
+}
+
+#btn_explodingkittens {
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    text-decoration: none;
+    background-color: #aa0000;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    border-radius: 100px;
+    padding: 20px 20px 20px 20px;
+    transition: transform 0.5s, background-color 0.1s, padding 0.5s, box-shadow 0.1s;
+
+}
+
+#btn_explodingkittens:hover {
+    background-color: #cc0000;
+    box-shadow: 0 0 8px #ff0000;
+    color: orange;
+    text-shadow: 0 0 3px rgb(251, 255, 0, 0.5);
+    transform: translate(0%, -20%);
+}
+
+a#btn_fitbit {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    background: #00b0b9;
+    color: white;
+    text-decoration: none;
+}
+
+#btn_fitbit:hover {
+    transition: .5s;
+    background: none;
+    color: #00b0b9;
+    font-style: italic;
+
+}
+
+#btn_oldnavy {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: #013765;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#btn_oldnavy:hover {
+    transition: .5s;
+    letter-spacing: 8px;
+}
+
+#btn_colorrun {
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 30px;
+    padding: 15px;
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+#btn_colorrun:hover {
+    background: white;
+    color: #e66465;
+    font-size: 150%;
+    transform: translate(0% 0%);
+    transition: .5s;
+}
+
+#btn_moo {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #008856;
+    border: 2px solid #008856;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all .8s;
+}
+
+.imgmoo {
+    display: flex;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: -27px;
+    margin-left: -25px;
+    visibility: none;
+}
+
+#btn_moo:hover {
+    background-color: #fff;
+    border: 0px solid #008856;
+    color: #008856;
+    transition: all .5s;
+    transform: translate(10%, 0%);
+}
+
+
+
+#btn_facebook {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #1077f0;
+    color: #fff;
+    font-family: "klavika-web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -1px;
+    transition: all .2s;
+}
+
+#btn_facebook:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    transition: all .5s;
+}
+
+#btn_facebook:hover {
+    color: #1077f0;
+}
+
+#btn_facebook:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#btn_facebook span {
+    position: relative;
+    z-index: 99;
+}
+
+#btn_nike {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 8px 30px 0 30px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+
+#btn_nike:hover {
+    letter-spacing: 5px;
+    background-color: #e05200;
+    transition: all .5s;
+    transform: translate(0%, -20%);
+}
