@@ -1,0 +1,23 @@
+html {
+    font-family: 'ITC Cheltenham Std', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    background-color: rgb(235, 235, 235);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#pdf {
+    border-style: solid;
+    border: 1px black;
+}
