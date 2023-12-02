@@ -370,7 +370,7 @@ input[type="reset"] {
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500;
     width: auto;
     height: auto;
-    width: 108px;
+    width: 110px;
 }
 
 .seemoretest {
@@ -785,10 +785,11 @@ a.leftbutton:hover span {
     overflow: auto;
     z-index: 99;
     right: 0vw;
-    top: 110px;
+    top: 100px;
     padding-right: 8vw;
     padding-left: 8vw;
-    padding-bottom: 42.59px;
+    padding-bottom: 25.6px;
+    padding-top: 10px;
 }
 
 .dropdown-content2 {
@@ -800,10 +801,11 @@ a.leftbutton:hover span {
     overflow: auto;
     z-index: 99;
     right: 0vw;
-    top: 110px;
+    top: 100px;
     padding-right: 15vw;
     padding-left: 15vw;
-    padding-bottom: 42.59px;
+    padding-bottom: 25.6px;
+    padding-top: 10px;
 }
 
 .dropdown-content a {
