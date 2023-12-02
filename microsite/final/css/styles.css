@@ -440,16 +440,6 @@ footer>h2 {
     line-height: 1.4;
 }
 
-/*.row {
-    margin-left: 15vw;
-    margin-right: 15vw;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, calc(8vw + 50px));
-    justify-content: space-between;
-    grid-gap: 20px;
-    width: 70vw;
-}*/
-
 .row {
     margin-left: 15vw;
     margin-right: 15vw;
@@ -470,13 +460,6 @@ footer>h2 {
 .titlesources {
     margin-bottom: 2rem;
 }
-
-/*.sourceimage {
-    width: calc(8vw + 50px);
-    height: auto;
-    align-items: top;
-    margin: 0;
-}*/
 
 .app {
     width: 25%;
@@ -502,7 +485,7 @@ a.rightbutton span {
 }
 
 a.rightbutton:hover span {
-    transform: translate(4px, 0px);
+    transform: translate(.25rem, 0px);
     transition-property: transform;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
@@ -520,7 +503,7 @@ a.leftbutton span {
 }
 
 a.leftbutton:hover span {
-    transform: translate(-4px, 0px);
+    transform: translate(-.25rem, 0px);
     transition-property: transform;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
@@ -532,7 +515,7 @@ a.leftbutton:hover span {
 
 .comparisontable2 td {
     border-spacing: 0px;
-    border-right: 1px solid black;
+    border-right: 1.2px solid black;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -552,7 +535,7 @@ a.leftbutton:hover span {
     font-family: 'Andale Mono', sans-serif;
     text-align: left;
     position: relative;
-    right: 10px;
+    right: .625rem;
 }
 
 .comparisontable2 {
@@ -881,14 +864,14 @@ a.toplink {
 }
 
 .countrycontain img {
-    height: 40px;
+    height: 2.5rem;
     width: auto;
     margin: 0;
 }
 
 .countrycontain {
     display: grid;
-    grid-template-columns: calc(50% - 40px) 80px calc(50% - 40px);
+    grid-template-columns: calc(50% - 2.5rem) 5rem calc(50% - 2.5rem);
     flex-direction: row;
     vertical-align: middle;
 }
@@ -1387,5 +1370,99 @@ a.toplink {
 
     .sourceimage {
         width: calc(38vw);
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    html {
+        font-size: 1vw;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .seemore,
+    #myBtn {
+        width: 5rem;
+    }
+
+    /* The actual timeline (the vertical ruler) */
+    .timeline {
+        position: relative;
+        max-width: 75rem;
+        margin: 0 auto;
+    }
+
+    /* The actual timeline (the vertical ruler) */
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: .062rem;
+        background-color: rgb(0, 0, 0);
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        z-index: -2;
+    }
+
+    /* Container around content */
+    .container {
+        padding: 0px 0px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+    }
+
+    /* The circles on the timeline */
+    .container::after {
+        width: 2.5rem;
+        height: 2.5rem;
+        right: -1.375rem;
+        border: .0625rem solid #000000;
+        top: .9375rem;
+    }
+
+    /* Place the container to the left */
+    .left {
+        padding-right: 2.5rem;
+    }
+
+    /* Place the container to the right */
+    .right {
+        padding-left: 2.5rem;
+    }
+
+    /* Fix the circle for containers on the right side */
+    .right::after {
+        left: -1.25rem;
+    }
+
+    .left h2 {
+        left: calc(100% + 1.5rem);
+        top: 1.78125rem;
+        font-size: .9rem;
+    }
+
+    .right h2 {
+        position: relative;
+        right: 3.5rem;
+        top: 1.78125rem;
+        font-size: .9rem;
+    }
+
+    img {
+        border: .075rem solid #000000;
+    }
+
+    table.descriptiontable {
+        border-top: .075rem solid #969696;
+        border-bottom: .075rem solid #969696;
+    }
+
+    .comparisontable2 td {
+        border-spacing: 0px;
+        border-right: .075rem solid black;
+        padding-right: .625rem;
+        padding-left: .625rem;
     }
 }
