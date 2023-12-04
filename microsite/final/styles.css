@@ -1,0 +1,1468 @@
+/* CSS Reset (lines 3 through 132) from https://meyerweb.com/eric/tools/css/reset/ */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/* My Code */
+p {
+    hyphens: auto;
+}
+
+.widenview {
+    font-family: 'Andale Mono', sans-serif;
+    font-size: 8vw;
+    padding-top: 2rem;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.navbar2 {
+    position: fixed;
+    background: black;
+    width: 100vw;
+    margin-top: -10rem;
+    z-index: 99;
+}
+
+.navbar {
+    font-family: 'Andale Mono', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navtitle {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    font-size: 1.236rem;
+    text-align: left;
+    justify-content: left;
+    margin-left: 15vw;
+    z-index: 99;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+li {
+    float: right;
+}
+
+.pages li a {
+    font-size: 1rem;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 3vw;
+    text-decoration: none;
+}
+
+.navtitle a {
+    text-decoration: none;
+    color: white;
+}
+
+.navtitle a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.navtitle a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.articlesubtitle2 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.articlesubtitle2 a:active {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.articlesubtitle2 a:hover {
+    text-decoration: none;
+    color: #969696;
+}
+
+li a:hover {
+    color: #4e4e4e;
+}
+
+li a:active {
+    color: #4e4e4e;
+}
+
+.pages {
+    justify-content: right;
+    text-align: right;
+    margin-right: 15vw;
+}
+
+#currentdescription {
+    color: #1c6cb5;
+}
+
+#currentapplications {
+    color: #fd9733;
+}
+
+#currenthistory {
+    color: #00c35d;
+}
+
+#currentcomparison {
+    color: #c74d38;
+}
+
+#currentsources {
+    color: #9f89bf;
+}
+
+.both {
+    width: 100%;
+}
+
+.title {
+    margin-top: 10rem;
+}
+
+.threebars {
+    height: auto;
+    color: white;
+}
+
+td {
+    hyphens: auto;
+}
+
+.articletitle {
+    font-family: 'Andale Mono', sans-serif;
+    font-size: 2.6rem;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.articlesubtitle {
+    font-family: "acumin-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 160;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    width: 52.5vw;
+}
+
+.articlesubtitle2 {
+    font-family: "acumin-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 160;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    width: 70%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    object-fit: cover;
+    height: 15rem;
+    border: 1.2px solid #000000;
+}
+
+.paragraph {
+    font-family: "acumin-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 200;
+    font-size: 1rem;
+    line-height: 1.1;
+    text-align: justify;
+}
+
+.sources {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+table.descriptiontable {
+    font-family: "acumin-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 200;
+    font-size: .8rem;
+    line-height: 1.1;
+    text-align: justify;
+    color: #969696;
+    border-top: 1.2px solid #969696;
+    border-bottom: 1.2px solid #969696;
+    padding-bottom: .5rem;
+    width: 100%;
+}
+
+.descriptiontable td {
+    padding-bottom: .5rem;
+}
+
+.source {
+    font-family: 'Andale Mono', sans-serif;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    text-align: left;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+/* See more from https://www.w3schools.com/howto/howto_js_read_more.asp */
+
+.seemore,
+#myBtn {
+    text-align: center;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500;
+    width: auto;
+    height: auto;
+    width: 115px;
+}
+
+.seemoretest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seemore:hover {
+    cursor: pointer;
+}
+
+.contentcomp {
+    display: grid;
+    grid-template-columns: 100%;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.contentcomp2 {
+    display: grid;
+    grid-template-columns: 100%;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.contentcomp3 {
+    display: grid;
+    grid-template-columns: 100%;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+footer {
+    text-align: left;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-top: 2rem;
+}
+
+footer {
+    background: black;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    color: white;
+}
+
+footer>h1 {
+    font-family: 'Andale Mono', sans-serif;
+    padding-bottom: .6rem;
+}
+
+footer>h2 {
+    font-family: "acumin-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 200;
+    font-size: .8rem;
+    line-height: 1.4;
+}
+
+.row {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: grid;
+    grid-template-columns: repeat(4, 14.5vw);
+    justify-content: space-between;
+    grid-gap: 3.5vw;
+    width: 70vw;
+}
+
+.sourceimage {
+    width: calc(14.5vw);
+    height: auto;
+    align-items: top;
+    margin: 0;
+}
+
+.titlesources {
+    margin-bottom: 2rem;
+}
+
+.app {
+    width: 25%;
+    padding-right: 1rem;
+    text-align: left;
+    font-variation-settings: "wght" 500;
+}
+
+td {
+    padding-bottom: 1rem;
+}
+
+.rightbutton {
+    font-variation-settings: "wght" 500;
+    text-align: right;
+}
+
+a.rightbutton span {
+    display: inline-block;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+a.rightbutton:hover span {
+    transform: translate(.25rem, 0px);
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.leftbutton {
+    font-variation-settings: "wght" 500;
+}
+
+a.leftbutton span {
+    display: inline-block;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+a.leftbutton:hover span {
+    transform: translate(-.25rem, 0px);
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.comparisontable {
+    text-align: center;
+}
+
+.comparisontable2 td {
+    border-spacing: 0px;
+    border-right: 1.2px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.category2 {
+    font-family: 'Andale Mono', sans-serif;
+    padding-bottom: 0px;
+}
+
+.category3 {
+    font-variation-settings: "wght" 500;
+    font-size: .8rem;
+    hyphens: auto;
+}
+
+.category {
+    font-family: 'Andale Mono', sans-serif;
+    text-align: left;
+    position: relative;
+    right: .625rem;
+}
+
+.comparisontable2 {
+    border-collapse: collapse;
+}
+
+.sources td {
+    hyphens: auto;
+}
+
+.buttontable {
+    width: 100%;
+    margin-top: 0;
+    height: 1.2rem;
+    padding: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-variation-settings: "wght" 500;
+    font-family: "acumin-variable", sans-serif;
+}
+
+.buttontablesources {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    width: 70vw;
+}
+
+.buttontable td {
+    padding: 0rem;
+}
+
+.infotable td {
+    padding-bottom: 0rem;
+}
+
+.bottom {
+    padding-bottom: 0;
+}
+
+.bottom {
+    padding: 0;
+}
+
+.row img {
+    margin-bottom: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Timeline code derived and edited from https://www.w3schools.com/howto/howto_css_timeline.asp */
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    z-index: -2;
+}
+
+/* Container around content */
+.container {
+    padding: 0px 0px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: -22px;
+    background-color: white;
+    border: 1px solid #000000;
+    top: 15px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+    padding-right: 40px;
+    z-index: -1;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+    padding-left: 40px;
+    z-index: -1;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -20px;
+}
+
+.left h2 {
+    position: relative;
+    left: 0px;
+    left: calc(100% + 24px);
+    top: 28.5px;
+    z-index: 2;
+    font-size: .9rem;
+    font-family: 'Andale Mono', sans-serif;
+}
+
+.right h2 {
+    position: relative;
+    right: 56px;
+    top: 28.5px;
+    z-index: 2;
+    font-size: .9rem;
+    font-family: 'Andale Mono', sans-serif;
+}
+
+.historycontent {
+    z-index: -99;
+}
+
+.rightbutton a,
+.leftbutton a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.rightbutton a:visited,
+.leftbutton a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+.rightbutton a:hover,
+.leftbutton a:hover {
+    text-decoration: none;
+    color: #969696;
+}
+
+.rightbutton a:active,
+.leftbutton a:active {
+    text-decoration: none;
+}
+
+/* Button */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn2 {
+    background-color: black;
+    color: white;
+    padding: .8rem;
+    padding-right: .6rem;
+    border-radius: 10px;
+    margin: 0px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
+
+#dots2,
+#dots3 {
+    font-size: 1.2rem;
+    margin: 00px;
+    line-height: 0;
+    position: relative;
+    top: -2.2px;
+}
+
+.myBtn4,
+.dots2,
+.more2 {
+    color: white;
+    z-index: 99999;
+}
+
+#dots3,
+#dots5 {
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.threebars .dropbtn {
+    font-size: 3rem;
+    border: none;
+    outline: none;
+    text-align: right;
+    line-height: .3;
+}
+
+.threebars #dots4,
+.threebars #dots5 {
+    font-size: 3rem;
+    border: none;
+    outline: none;
+    text-align: right;
+    line-height: .3;
+}
+
+.threebars #dots5 {
+    position: relative;
+    top: 5.25px;
+    left: 1px;
+    font-size: 3.2rem;
+}
+
+.threebars .dropbtn2 {
+    font-size: .9rem;
+    outline: none;
+    text-align: right;
+    line-height: .3;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 99;
+    right: 0vw;
+    top: 100px;
+    padding-right: 8vw;
+    padding-left: 8vw;
+    padding-bottom: 25.6px;
+    padding-top: 10px;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 99;
+    right: 0vw;
+    top: 100px;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    padding-bottom: 25.6px;
+    padding-top: 10px;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-size: 1.236rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.dropdown-content2 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-size: 1.236rem;
+    line-height: 2;
+    text-align: center;
+}
+
+#myDropdown,
+#myDropdown2 {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .45);
+    width: 100vw;
+}
+
+#myDropdown a,
+#myDropdown2 a {
+    border-bottom: 1px solid #ffffff;
+    padding-top: 0;
+}
+
+a.toplink {
+    border-top: 1px solid #ffffff;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.applicationtable td {
+    padding-bottom: 0;
+}
+
+.applicationtable table {
+    border-spacing: 0;
+}
+
+/* See More */
+#more {
+    display: none;
+}
+
+.countrycontain img {
+    height: 2.5rem;
+    width: auto;
+    margin: 0;
+}
+
+.countrycontain {
+    display: grid;
+    grid-template-columns: calc(50% - 2.5rem) 5rem calc(50% - 2.5rem);
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.usuk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.japan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Media queries */
+@media screen and (max-width: 1100px) {
+    .pages li a {
+        padding-left: 2vw;
+    }
+
+    .pages li a {
+        font-size: calc(4px + 1.1vw);
+        line-height: 1.2;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .articlesubtitle {
+        width: 70vw;
+    }
+
+    .content {
+        display: flex;
+        grid-template-rows: 75% 25%;
+        flex-direction: column;
+        align-items: top;
+        justify-content: space-between;
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+    .sources {
+        margin-left: 0rem;
+    }
+
+    img {
+
+        width: 100%;
+        height: calc(100px + 14vw);
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 20px;
+    }
+
+    /* Full-width containers */
+    .container {
+        width: calc(100% + 40px);
+        padding-left: 60px;
+    }
+
+    .right {
+        width: calc(100% + 40px);
+        padding-left: 60px;
+    }
+
+    .right {
+        width: calc(100%);
+        padding-left: 60px;
+    }
+
+    .left h2 {
+        left: -56px;
+    }
+
+    .right h2 {
+        right: 56px;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 0px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+
+    .seemore,
+    #myBtn {
+        padding: 0.4rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        background-color: #969696;
+        border-radius: 10px;
+        color: white;
+        font-size: 1rem;
+        line-height: 1.1;
+        height: 33.3px;
+    }
+
+    footer h1,
+    .source {
+        font-size: 1.2rem;
+    }
+
+    footer h2,
+    .seemoretest {
+        font-size: .9rem;
+    }
+
+    .leftbutton a:visited {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .rightbutton a,
+    .leftbutton a {
+        color: white;
+        padding: .4rem;
+        padding-left: .8rem;
+        padding-right: .8rem;
+        background-color: #000000;
+        border-radius: 10px;
+        margin-top: 100px;
+        margin-bottom: 10rem;
+    }
+
+    .rightbutton a:visited,
+    .leftbutton a:visited {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .rightbutton a:hover,
+    .leftbutton a:hover {
+        text-decoration: none;
+        color: #969696;
+    }
+
+    .rightbutton a:active,
+    .leftbutton a:active {
+        text-decoration: none;
+    }
+
+    .countrycontain {
+        display: none;
+    }
+
+    .mainimg {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .titlesources {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    #threebars {
+        display: none;
+    }
+
+    .pages {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 950px) and (min-width: 501px) {
+    .normalpage {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    #threebars2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #threebars2 {
+        display: none;
+    }
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 500px) {
+    .navtitle {
+        margin-left: 8vw;
+    }
+
+    .title {
+        margin-top: 9rem;
+    }
+
+    .navbar2 {
+        margin-top: -9rem;
+    }
+
+    .pages {
+        margin-right: 8vw;
+    }
+
+    .articletitle {
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+
+    .articlesubtitle,
+    .articlesubtitle2 {
+        width: 84vw;
+    }
+
+    .articlesubtitle,
+    .articlesubtitle2,
+    .content,
+    .contentcomp,
+    .contentcomp2,
+    .contentcomp3,
+    .row,
+    .buttontablesources {
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+
+    footer {
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+
+    .row {
+        width: 84vw;
+        grid-gap: 8px;
+    }
+
+    .normalpage {
+        display: none;
+    }
+
+    .articlesubtitle {
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+
+    .articlesubtitle2 {
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+
+    .articletitle {
+        font-size: calc(8.35vw);
+    }
+}
+
+@media screen and (min-width: 277px) {
+    .widenview {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 276px) {
+
+    .navbar2,
+    .both,
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .applicationtable td {
+        display: table-row;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .contentcomp2 {
+        display: none;
+    }
+
+    .contentcomp3 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 950px) and (min-width: 551px) {
+    .contentcomp {
+        display: none;
+    }
+
+    .contentcomp3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) and (min-width: 00px) {
+    .contentcomp {
+        display: none;
+    }
+
+    .contentcomp2 {
+        display: none;
+    }
+
+    .catleft {
+        width: 10%;
+    }
+
+    .catright {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px) and (min-width: 400px) {
+    .comparisontable2 td {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .category {
+        right: 20px;
+        hyphens: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .category {
+        font-size: .9rem;
+        hyphens: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 389px) {
+    .footerbottom {
+        line-height: 1.1;
+        margin-top: 9px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .buttontable3 {
+        width: 100%;
+        margin-top: 0;
+        height: 1.2rem;
+        padding: 0rem;
+        padding-top: 3.8rem;
+        padding-bottom: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-variation-settings: "wght" 500;
+        font-family: "acumin-variable", sans-serif;
+    }
+
+    .leftbutton3 {
+        margin-top: 0rem;
+    }
+
+    .rightbutton3 {
+        margin-top: 1.5rem;
+    }
+
+    .articletitle {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 333px) {
+    .buttontable4 {
+        width: 100%;
+        margin-top: 0;
+        height: 1.2rem;
+        padding: 0rem;
+        padding-top: 3.8rem;
+        padding-bottom: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-variation-settings: "wght" 500;
+        font-family: "acumin-variable", sans-serif;
+    }
+
+    .leftbutton4 {
+        margin-top: 0rem;
+    }
+
+    .rightbutton4 {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 299px) {
+    .buttontable5 {
+        width: 100%;
+        margin-top: 0;
+        height: 1.2rem;
+        padding: 0rem;
+        padding-top: 3.8rem;
+        padding-bottom: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-variation-settings: "wght" 500;
+        font-family: "acumin-variable", sans-serif;
+    }
+
+    .leftbutton5 {
+        margin-top: 0rem;
+    }
+
+    .rightbutton5 {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .row {
+        grid-template-columns: repeat(5, 12vw);
+        grid-gap: 0vw;
+        row-gap: 2.5vw;
+    }
+
+    .sourceimage {
+        width: calc(12vw);
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 651px) {
+    .row {
+        grid-template-columns: repeat(4, 15vw);
+        grid-gap: 0vw;
+        row-gap: 3.33vw;
+    }
+
+    .sourceimage {
+        width: calc(15vw);
+    }
+}
+
+@media screen and (max-width: 650px) and (min-width: 501px) {
+    .row {
+        grid-template-columns: repeat(3, 20vw);
+        row-gap: 5vw;
+    }
+
+    .sourceimage {
+        width: calc(20vw);
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 300px) {
+    .row {
+        margin-left: 8vw;
+        margin-right: 8vw;
+        grid-template-columns: repeat(3, 24.66667vw);
+        grid-gap: 0vw;
+        row-gap: 5vw;
+        width: 84vw;
+    }
+
+    .sourceimage {
+        width: calc(24.66667vw);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .row {
+        margin-left: 8vw;
+        margin-right: 8vw;
+        display: grid;
+        grid-template-columns: repeat(2, 38vw);
+        justify-content: space-between;
+        grid-gap: 0vw;
+        row-gap: 8vw;
+        width: 84vw;
+    }
+
+    .sourceimage {
+        width: calc(38vw);
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    html {
+        font-size: 1vw;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .seemore,
+    #myBtn {
+        width: 5rem;
+    }
+
+    /* The actual timeline (the vertical ruler) */
+    .timeline {
+        position: relative;
+        max-width: 75rem;
+        margin: 0 auto;
+    }
+
+    /* The actual timeline (the vertical ruler) */
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: .062rem;
+        background-color: rgb(0, 0, 0);
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        z-index: -2;
+    }
+
+    /* Container around content */
+    .container {
+        padding: 0px 0px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+    }
+
+    /* The circles on the timeline */
+    .container::after {
+        width: 2.5rem;
+        height: 2.5rem;
+        right: -1.375rem;
+        border: .0625rem solid #000000;
+        top: .9375rem;
+    }
+
+    /* Place the container to the left */
+    .left {
+        padding-right: 2.5rem;
+    }
+
+    /* Place the container to the right */
+    .right {
+        padding-left: 2.5rem;
+    }
+
+    /* Fix the circle for containers on the right side */
+    .right::after {
+        left: -1.25rem;
+    }
+
+    .left h2 {
+        left: calc(100% + 1.5rem);
+        top: 1.78125rem;
+        font-size: .9rem;
+    }
+
+    .right h2 {
+        position: relative;
+        right: 3.5rem;
+        top: 1.78125rem;
+        font-size: .9rem;
+    }
+
+    img {
+        border: .075rem solid #000000;
+    }
+
+    table.descriptiontable {
+        border-top: .075rem solid #969696;
+        border-bottom: .075rem solid #969696;
+    }
+
+    .comparisontable2 td {
+        border-spacing: 0px;
+        border-right: .075rem solid black;
+        padding-right: .625rem;
+        padding-left: .625rem;
+    }
+}
